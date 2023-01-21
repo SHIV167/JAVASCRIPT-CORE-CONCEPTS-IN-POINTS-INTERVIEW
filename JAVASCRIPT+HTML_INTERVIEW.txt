@@ -37,6 +37,7 @@
 18. Lexical Scoping
 19. Currying
 20. Different between Let and Const
+21. function scope vs block scope
 =======================  REACT  ==============================================
 
 
