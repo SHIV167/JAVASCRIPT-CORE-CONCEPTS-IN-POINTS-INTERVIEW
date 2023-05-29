@@ -39,6 +39,19 @@
 20. Different between Let and Const
 21. function scope vs block scope vs gobal scope
 22. Map vs ForEach
+
+
+======================================INTERVIEW QUESTIONS ====================
+SEMANTICS
+BOX-MODAL
+SASS VS CSS
+PSEUDO ELEMENTS AND CHILD ELEMENTS
+LOCAL STORAGE VS. COOKIES VS. SESSION
+HOISTING, ASYNC AWAIT
+OBJ. VS. ARRAY
+DATA TYPES IN JAVASCRIPT
+$_PHP AND AJAX
+
 =======================  REACT  ==============================================
 
 
@@ -58,7 +71,9 @@
 
 25. FUNCTIONAL BASED COMPONENT LIFE CYCLE METHOD OF REACT
 
+26. Important Link => https://dev.to/collegewap/how-to-delete-an-item-from-the-state-array-in-react-kl
 
+27. 
 
 
 
