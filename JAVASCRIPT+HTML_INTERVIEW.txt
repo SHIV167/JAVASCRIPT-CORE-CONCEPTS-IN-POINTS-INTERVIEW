@@ -73,7 +73,7 @@ $_PHP AND AJAX
 
 26. Important Link => https://dev.to/collegewap/how-to-delete-an-item-from-the-state-array-in-react-kl
 
-27. 
+
 
 
 
