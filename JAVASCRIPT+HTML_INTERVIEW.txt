@@ -72,6 +72,7 @@ $_PHP AND AJAX
 25. FUNCTIONAL BASED COMPONENT LIFE CYCLE METHOD OF REACT
 
 26. Important Link (MAP AND DELETE DATA) => https://dev.to/collegewap/how-to-delete-an-item-from-the-state-array-in-react-kl
+                                         => https://ordinarycoders.com/blog/article/javascript-react-map-method
 
 
 
