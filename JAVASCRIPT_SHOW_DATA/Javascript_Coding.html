@@ -1,0 +1,108 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <title>Browser</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+</head>
+
+<body>
+<div id="app">HI CLICK ME AND SEE CONSOLE !</div>
+
+
+
+
+
+
+  <script type="text/javascript">
+  // Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+let emp = [
+    {
+    name: 'abc',
+    age: 20,
+    },
+        {
+    name: 'abc1',
+    age: 30,
+    },
+    
+        {
+    name: 'abc2',
+    age: 40,
+    },
+    
+        {
+    name: 'abc3',
+    age: 50,
+    },
+    
+    
+    ];
+
+//Data show simple filter method
+ const result = emp.filter((value)=>{
+    
+     return value.age < 26;
+ })
+
+//Data show append child by ID
+
+const app = document.getElementById('app');
+
+result.map(({name, age})=>{
+const dataToShow = `${name} : ${age}`;
+console.log('data==>', dataToShow);
+app.appendChild = `<p>${dataToShow}</p>`;
+
+}
+
+
+);
+
+console.log(result);
+
+
+//Data show on click event
+
+const divSelect = document.getElementById('app');
+divSelect.addEventListener('click', () =>{
+console.log('TEST!!');
+
+} );
+ 
+
+//Promise example
+
+const testPromise = new Promise((resolve, reject) => {
+let value = 5;
+
+if(value < 4)
+{
+resolve('value is less than 4');
+
+}else{
+reject('value is greater than 4');
+}
+
+});
+
+testPromise.then((result) => {
+console.log('success ===>', result);
+
+
+})
+.catch((error) => console.log('error',error));
+   
+  </script>
+</body>
+
+</html>
+
